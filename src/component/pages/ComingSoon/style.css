@@ -91,3 +91,69 @@
     font-weight: 500;
     color: #696969;
 }
+
+.in_desktop_hidden {
+    display: none;
+}
+
+@media (max-width:540px) {
+    .coming_soon {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .kiro_img {
+        width: 20%;
+    }
+
+    .coming_soon_text {
+        height: 40vh;
+        flex-direction: column-reverse;
+    }
+
+    .coming_soon_dude {
+        font-size: 2rem;
+    }
+
+    .middle_text {
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .logo_dude_to_doodle {
+        width: 80%;
+    }
+
+    .lucy_mobile_center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lucy_img {
+        width: 25%;
+        margin-bottom: 2%;
+    }
+
+    .social_details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .in_mobile_hidden {
+        display: none !important;
+    }
+
+    .in_desktop_hidden {
+        display: block !important;
+        margin: 4% 0%;
+    }
+
+    .font_change {
+        text-align: center;
+        margin: 4% 0%;
+        font-size: 4vw;
+    }
+}
